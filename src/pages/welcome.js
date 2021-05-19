@@ -11,7 +11,7 @@ export default function Welcome() {
             <p>Sid, Rafeh & the Clubhouse team</p>
         </div>
         <div className={styles.actionBtn}>
-            <Link exact to="/get_username" className={"primaryBtn d-flex align-items-center mb-3"}>
+            <Link exact to="/get_username" className="primaryBtn d-flex align-items-center mb-3">
                 Get your username{" "}
                 <img src="" alt="" />
             </Link>
