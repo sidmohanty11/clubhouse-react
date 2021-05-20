@@ -8,6 +8,7 @@ import AllowNotification from './pages/allownotification';
 import Home from './pages/home';
 import AppLayout from './Layouts/AppLayout';
 import Explore from './pages/explore';
+import Profile from './pages/profile';
 
 function App() {
   return (
@@ -22,11 +23,12 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={["/home", "/explore"]}>
+      <Route exact path={["/home", "/explore", "/profile"]}>
         <AppLayout>
           <Switch>
             <Route exact path="/home"><Home /></Route>
             <Route exact path="/explore"><Explore /></Route>
+            <Route exact path="/profile"><Profile /></Route>
           </Switch>
         </AppLayout>
       </Route>
