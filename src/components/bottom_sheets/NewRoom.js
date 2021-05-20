@@ -44,10 +44,10 @@ const NewRoom = (props) => {
                     </div>
                 </div>
                 <div className={styles.footer}>
-                    <button onClick={() => { 
+                    <button onClick={() => {
                         props.setSheetVisible(false);
                     }}>
-                        <img src="./handpeace.svg" alt="" />Leave Quietly
+                        Leave Quietly<img src="./handpeace.svg" alt="" />
                     </button>
                     <div>
                         <button>

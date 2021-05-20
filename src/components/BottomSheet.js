@@ -20,18 +20,18 @@ const BottomSheet = (props) => {
 
                 {props.sheetTitle == 'new room' ? (
                     <NewRoom cardDetail={props.cardDetail}
-                        setSheetVisible={(item => {
-                            props.setItemsVisible(item);
+                        setSheetVisible={(item) => {
+                            props.setSheetVisible(item);
                             props.setItemsVisible(true);
-                        })}
+                        }}
                     />
                 ) : props.sheetTitle == 'start room' ? (
                         <StartRoom
                             setSheetCreateRoom={props.setSheetCreateRoom}
-                            setSheetVisible={(item => {
-                                props.setItemsVisible(item);
+                            setSheetVisible={(item) => {
+                                props.setSheetVisible(item);
                                 props.setItemsVisible(true);
-                            })}
+                            }}
                         />
                 ) : (
                        "" 

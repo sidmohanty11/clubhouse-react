@@ -42,7 +42,7 @@ const Home = () => {
                 <button><BsGrid3X3Gap /></button>
             </div>
             <BottomSheet
-                sheetTitle='start room'
+                sheetTitle={'start room'}
                 setSheetVisible={(item)=> setSheetVisible(item)}
                 sheetVisible={sheetVisible}
                 cardDetail={data.find((item) => item.id === cardId)}
@@ -56,7 +56,7 @@ const Home = () => {
                 }}
             />
             <BottomSheet
-                sheetTitle="new room"
+                sheetTitle={'new room'}
                 setSheetVisible={(item) => setSheetCreateRoom(item)}
                 sheetVisible={sheetCreateRoom}
                 cardDetail={newRoomData}
