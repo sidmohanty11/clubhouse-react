@@ -15,7 +15,7 @@ export default function Welcome() {
                 Get your username{" "}
                 <img src="" alt="" />
             </Link>
-            <Link to="/signin"> Have an invite in? Sign in.
+            <Link to="/invite"> Have an invite in? Sign in.
             </Link>
         </div>
     </div>
